@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Almeida, Freire & Jucá | Advogados</title>
+<title>Almeida, Freire & Jucá | Em construção</title>
 
 <style>
 
@@ -20,58 +19,57 @@ body{
 
 font-family:Arial,Helvetica,sans-serif;
 
-background:#f7f6f3;
-
-color:#333;
+background:#efefef;
 
 display:flex;
-
 align-items:center;
-
 justify-content:center;
 
 min-height:100vh;
 
-padding:30px;
+padding:25px;
 
 }
 
-.container{
-
-max-width:900px;
+.card{
 
 width:100%;
+max-width:900px;
 
 background:white;
 
-border-radius:20px;
+border-radius:18px;
 
 overflow:hidden;
 
-box-shadow:0 20px 60px rgba(0,0,0,.12);
+box-shadow:0 15px 45px rgba(0,0,0,.15);
 
 }
 
-.topo{
+header{
 
 background:#2e2d2b;
 
-padding:45px;
+padding:35px;
 
-text-align:center;
+display:flex;
+
+justify-content:center;
 
 }
 
-.topo img{
+header img{
 
-max-width:420px;
 width:100%;
+max-width:420px;
+height:auto;
+display:block;
 
 }
 
-.conteudo{
+main{
 
-padding:60px;
+padding:55px 40px;
 
 text-align:center;
 
@@ -79,9 +77,9 @@ text-align:center;
 
 h1{
 
-font-size:42px;
+font-size:40px;
 
-color:#3a3a3a;
+color:#333;
 
 margin-bottom:20px;
 
@@ -93,35 +91,67 @@ color:#b08a46;
 
 }
 
-.linha{
+hr{
 
 width:90px;
 
 height:4px;
 
+margin:25px auto 35px;
+
 background:#b08a46;
 
-margin:25px auto 40px;
+border:none;
 
-border-radius:20px;
+border-radius:30px;
 
 }
 
 p{
 
-font-size:20px;
+font-size:18px;
 
 line-height:1.8;
+
+color:#666;
 
 max-width:650px;
 
 margin:auto;
 
-color:#666;
+}
+
+.areas{
+
+margin-top:45px;
+
+display:flex;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:12px;
 
 }
 
-.info{
+.areas span{
+
+padding:12px 18px;
+
+border:1px solid #b08a46;
+
+border-radius:30px;
+
+color:#b08a46;
+
+font-weight:bold;
+
+font-size:15px;
+
+}
+
+.buttons{
 
 margin-top:45px;
 
@@ -129,51 +159,19 @@ display:flex;
 
 justify-content:center;
 
-gap:18px;
+gap:15px;
 
 flex-wrap:wrap;
 
 }
 
-.item{
-
-padding:12px 20px;
-
-border:1px solid #b08a46;
-
-border-radius:40px;
-
-color:#b08a46;
-
-font-weight:bold;
-
-}
-
-.botoes{
-
-margin-top:50px;
-
-display:flex;
-
-justify-content:center;
-
-gap:20px;
-
-flex-wrap:wrap;
-
-}
-
-.botao{
-
-background:#b08a46;
-
-color:white;
-
-padding:16px 34px;
-
-border-radius:50px;
+.buttons a{
 
 text-decoration:none;
+
+padding:15px 28px;
+
+border-radius:40px;
 
 font-weight:bold;
 
@@ -181,25 +179,7 @@ transition:.3s;
 
 }
 
-.botao:hover{
-
-transform:translateY(-3px);
-
-background:#8f6d35;
-
-}
-
-.botao2{
-
-background:white;
-
-color:#b08a46;
-
-border:2px solid #b08a46;
-
-}
-
-.botao2:hover{
+.whatsapp{
 
 background:#b08a46;
 
@@ -207,39 +187,75 @@ color:white;
 
 }
 
+.email{
+
+border:2px solid #b08a46;
+
+color:#b08a46;
+
+}
+
+.buttons a:hover{
+
+transform:translateY(-3px);
+
+}
+
 footer{
 
-margin-top:60px;
+padding:30px;
+
+text-align:center;
+
+color:#999;
 
 font-size:14px;
 
-color:#999;
+background:#fafafa;
 
 }
 
 @media(max-width:700px){
 
-.topo{
+header{
 
-padding:25px;
+padding:20px;
 
 }
 
-.conteudo{
+main{
 
 padding:35px 25px;
 
 }
 
+header img{
+
+max-width:280px;
+
+}
+
 h1{
 
-font-size:32px;
+font-size:30px;
 
 }
 
 p{
 
-font-size:17px;
+font-size:16px;
+
+}
+
+.buttons{
+
+flex-direction:column;
+
+}
+
+.buttons a{
+
+width:100%;
 
 }
 
@@ -251,80 +267,68 @@ font-size:17px;
 
 <body>
 
-<div class="container">
+<div class="card">
 
-<div class="topo">
+<header>
 
 <img src="logo.png" alt="Almeida, Freire & Jucá">
 
-</div>
+</header>
 
-<div class="conteudo">
+<main>
 
-<h1>Estamos <span>construindo</span> uma nova experiência.</h1>
+<h1>Nosso novo site está <span>chegando.</span></h1>
 
-<div class="linha"></div>
+<hr>
 
 <p>
 
-Nosso novo site está sendo desenvolvido para oferecer uma experiência moderna,
-intuitiva e alinhada aos valores do <strong>Almeida, Freire & Jucá – Advogados</strong>.
+Estamos preparando uma experiência digital moderna para apresentar
+nossa equipe, áreas de atuação e conteúdos jurídicos.
 
-Em breve você conhecerá nossa equipe, áreas de atuação, conteúdos jurídicos e
-novos canais de atendimento.
+Enquanto isso, nossa equipe permanece à disposição pelos canais abaixo.
 
 </p>
 
-<div class="info">
+<div class="areas">
 
-<div class="item">Direito Empresarial</div>
+<span>Empresarial</span>
 
-<div class="item">Direito Ambiental</div>
+<span>Ambiental</span>
 
-<div class="item">Direito Agrário</div>
+<span>Agrário</span>
 
-<div class="item">Direito Administrativo</div>
+<span>Administrativo</span>
 
-<div class="item">Licitações</div>
+<span>Licitações</span>
 
-<div class="item">Execução Penal</div>
+<span>Execução Penal</span>
+
+</div>
+
+<div class="buttons">
+
+<a class="whatsapp"
+href="https://wa.me/556899363280">
+WhatsApp
+</a>
+
+<a class="email"
+href="mailto:atendimento@afjadvogados.com">
+E-mail
+</a>
 
 </div>
 
-<div class="botoes">
-
-<a class="botao"
-href="https://wa.me/55SEUNUMERO">
-Fale pelo WhatsApp
-</a>
-
-<a class="botao botao2"
-href="mailto:contato@afjadvogados.com.br">
-Enviar E-mail
-</a>
-
-</div>
+</main>
 
 <footer>
 
-© 2026 Almeida, Freire & Jucá – Advogados<br>
-Todos os direitos reservados.
+© 2026 Almeida, Freire & Jucá – Advogados
 
 </footer>
 
 </div>
 
-</div>
-
-</body>
-</html><!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<title>Teste</title>
-</head>
-<body style="background:#111;color:#fff;font-family:Arial;text-align:center;padding-top:100px">
-<h1>Site funcionando!</h1>
-<p>GitHub Pages configurado corretamente.</p>
 </body>
 </html>
