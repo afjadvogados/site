@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Almeida, Freire & Jucá | Em Desenvolvimento</title>
+<style>
+:root{
+--gold:#b89a63;
+--dark:#43444c;
+--bg:#f6f4f1;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:linear-gradient(135deg,#faf9f7,#f2f1ed);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:flex-start;
+padding:24px;
+color:var(--dark);
+}
+.container{
+width:min(920px,100%);
+background:#fff;
+border-radius:24px;
+box-shadow:0 20px 60px rgba(0,0,0,.08);
+padding:36px 42px;
+text-align:center;
+}
+.logo{
+width:150px;
+display:block;
+margin:0 auto 18px;
+}
+.badge{
+display:inline-block;
+padding:10px 22px;
+border-radius:999px;
+background:#f3ede2;
+color:var(--gold);
+font-weight:700;
+font-size:14px;
+letter-spacing:.4px;
+}
+h1{
+margin:24px 0 8px;
+font-size:clamp(2rem,5vw,3.2rem);
+font-weight:300;
+line-height:1.15;
+}
+h1 strong{color:var(--gold);}
+.line{
+width:90px;height:4px;border-radius:4px;
+background:var(--gold);
+margin:22px auto 28px;
+}
+p{
+max-width:720px;
+margin:0 auto;
+font-size:1.08rem;
+line-height:1.8;
+color:#666;
+}
+.tags{
+margin:30px auto;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:12px;
+}
+.tag{
+padding:10px 18px;
+border:1px solid rgba(184,154,99,.55);
+border-radius:999px;
+color:var(--gold);
+font-weight:600;
+font-size:.95rem;
+}
+.buttons{
+margin-top:28px;
+display:flex;
+justify-content:center;
+gap:16px;
+flex-wrap:wrap;
+}
+.btn{
+padding:15px 28px;
+border-radius:999px;
+text-decoration:none;
+font-weight:700;
+transition:.25s;
+}
+.primary{
+background:var(--gold);
+color:#fff;
+}
+.secondary{
+border:2px solid var(--gold);
+color:var(--gold);
+}
+.btn:hover{transform:translateY(-2px);}
+footer{
+margin-top:32px;
+padding-top:22px;
+border-top:1px solid #eee;
+color:#8c8c8c;
+font-size:.9rem;
+}
+@media(max-width:768px){
+.container{padding:28px 20px;}
+.logo{width:120px;}
+p{font-size:1rem;}
+.buttons{flex-direction:column;}
+.btn{width:100%;}
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<img src="logo.png" class="logo" alt="Almeida, Freire &amp; Jucá">
+
+<div class="badge">NOVO PORTAL INSTITUCIONAL EM DESENVOLVIMENTO</div>
+
+<h1>Uma nova experiência<br><strong>está chegando.</strong></h1>
+
+<div class="line"></div>
+
+<p>
+Estamos preparando um novo portal institucional para apresentar nossa equipe,
+áreas de atuação e conteúdos jurídicos com a qualidade, segurança e excelência
+que fazem parte da identidade do <strong>Almeida, Freire &amp; Jucá – Advogados.</strong>
+</p>
+
+<div class="tags">
+<div class="tag">Direito Empresarial</div>
+<div class="tag">Direito Ambiental</div>
+<div class="tag">Direito Agrário</div>
+<div class="tag">Direito Administrativo</div>
+<div class="tag">Licitações</div>
+<div class="tag">Execução Penal</div>
+</div>
+
+<div class="buttons">
+<a class="btn primary" href="https://wa.me/55SEUNUMERO">Fale Conosco</a>
+<a class="btn secondary" href="mailto:contato@afjadvogados.com.br">Enviar E-mail</a>
+</div>
+
+<footer>
+© 2026 Almeida, Freire &amp; Jucá – Advogados<br>
+Todos os direitos reservados.
+</footer>
+
+</div>
+</body>
+</html>
